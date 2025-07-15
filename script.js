@@ -556,3 +556,5 @@ renderTable(select.value);
 select.addEventListener("change", (e) => {
   renderTable(e.target.value);
 });
+
+console.log("Woah!")
