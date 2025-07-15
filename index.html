@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <title>Rust Calculator</title>
+</head>
+<body>
+  <h1>Rust Calculator</h1>
+
+  <label for="target-select">Choose a wall or door:</label>
+  <select id="target-select">
+    <option value="wooden-door">Wooden Door </option>
+    <option value="sheet-metal-door">Sheet Metal Door</option>
+    <option value="armored-door">Armored Door</option>
+    <option value="wooden-wall">Wooden Wall</option>
+    <option value="sheet-metal-wall">Sheet Metal Door</option>
+    <option value="armored-wall">Armored Wall</option>
+    <option value="high-external-wall">High External Wall</option>
+  </select>
+
+  <table id="resultsTable">
+    <thead>
+      <tr>
+        <th>Weapon</th>
+        <th>Quantity</th>
+        <th>Time</th>
+        <th>Materials</th>
+        <th>Total Materials</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

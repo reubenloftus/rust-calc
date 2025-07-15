@@ -1,0 +1,103 @@
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Arial', Helvetica, sans-serif;
+overflow-x: hidden;
+}
+
+body {
+background-image: url('images/RustBackground.jpg');
+background-size: cover;
+background-position: top center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
+padding: 20px;
+position: relative;
+}
+
+
+h1 {
+font-family: 'Russo One', sans-serif;
+font-size: 2.5rem;
+margin-bottom: 20px;
+color: #ffffff;
+text-align: center;
+text-shadow: 1px 1px 2px #000;
+}
+
+
+
+label {
+display: block;
+margin-bottom: 10px;
+font-size: 1rem;
+}
+
+select {
+padding: 8px 12px;
+font-size: 1rem;
+border-radius: 4px;
+border: none;
+margin-bottom: 30px;
+outline: none;
+}
+
+table {
+width: 100%;
+height: auto;
+border-collapse:collapse;
+border-radius: 8px;
+overflow: hidden;
+border: 1px solid #333;
+margin-top: 5%;
+}
+
+th {
+background-color: #c5412c;
+color: white;
+font-weight: bold;
+padding: 12px;
+border: 1px solid #555;
+width: 20%;
+font-size: 1.1rem;
+text-align: center;
+}
+
+td {
+background-color: #3e3e3e;
+color: white;
+padding: 12px;
+border: 1px solid #555;
+width: 20%;
+font-size: 1rem;
+text-align: center;
+}
+
+tbody tr:hover td {
+background-color: #555;
+cursor: default;
+}
+
+.weapon-cell {
+display: flex;
+align-items: center;
+gap: 8px;
+text-align: left;
+}
+
+.weapon-img {
+width: 40px;
+height: 40px;
+border-radius: 4px;
+object-fit: contain;
+flex-shrink: 0;
+}
+
+.weapon-name {
+white-space: nowrap;
+font-size: 1rem;
+color: white;
+}
