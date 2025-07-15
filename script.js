@@ -1,4 +1,4 @@
-const Data = {
+const data = {
   "wooden-door": [
     {
       weapon: "C4",
